@@ -1,0 +1,91 @@
+
+/* Overall page styling (background + typography) */
+body {
+  background-color: #fdeff4;     
+  font-family: Arial, sans-serif; /* Clean readable font */
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333; 
+}
+
+header {
+  background-color: #8b1a3a; 
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Main heading animation */
+h1 {
+  margin: 0;
+  font-size: 2em;
+  animation: slideIn 1.2s ;   /* Smooth slide effect for name */
+}
+
+/* Keyframes for h1 animation */
+@keyframes slideIn {
+  from {
+    transform: translateX(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+/* Paragraphs */
+p {
+  margin-top: 8px;
+  font-size: 1rem;
+}
+
+/* Section headings */
+h2 {
+  color: #8b1a3a;
+  margin-top: 20px;
+}
+
+/* Hyperlinks */
+a {
+  color: #8b1a3a;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Main content box */
+main {
+  max-width: 700px;
+  margin: 20px auto;
+  background: white;
+  padding: 15px 25px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(255, 0, 102, 0.15); 
+}
+
+/* Profile image */
+img {
+  width: 200px;
+  border-radius: 10px;
+  display: block;
+  margin: 15px auto;
+}
+
+/* List styling */
+ul {
+  list-style-type: square;
+  padding-left: 20px;
+}
+
+/* Footer section */
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 15px;
+  color: #555;
+  font-size: 0.9rem;
+}
